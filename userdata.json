@@ -1,0 +1,17 @@
+{
+  {
+    "name": "andrew", 
+    "email": "andrewyu@ucsb.edu", 
+    "classes": ["cs24", "cs40", "phys1", "math6a"]
+  }
+  {
+    "name": "rohan", 
+    "email": "rmarangoly@ucsb.edu", 
+    "classes": ["cs24", "hist4b", "phys1", "math4a"]
+  }
+  {
+    "name": "kyle", 
+    "email": "knw@ucsb.edu", 
+    "classes": ["cs24", "cs40", "phys1", "math6a"]
+  }
+}
