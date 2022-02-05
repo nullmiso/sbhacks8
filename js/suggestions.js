@@ -3,6 +3,7 @@ let suggestions = [
   "CS16",
   "CS24",
   "CS32",
+  "CS40",
   "CS64",
   "ECE5",
   "HIST4B",
