@@ -10,7 +10,7 @@ inputBox.onkeyup = (e)=>{
     let userData = e.target.value; //user enetered data
     let emptyArray = [];
     if(userData){
-        emptyArray = allclasses.filter((data)=>{
+        emptyArray = suggestions.filter((data)=>{
             //filtering array value and user characters to lowercase and return only those words which are start with user enetered chars
             return data.toLocaleLowerCase().startsWith(userData.toLocaleLowerCase());
         });
@@ -19,7 +19,7 @@ inputBox.onkeyup = (e)=>{
             return data = `<li>${data}</li>`;
         });
         searchWrapper.classList.add("active"); //show autocomplete box
-        showClasses(emptyArray);
+        showSuggestions(emptyArray);
         let allList = suggBox.querySelectorAll("li");
         for (let i = 0; i < allList.length; i++) {
             //adding onclick attribute in all li tag
@@ -39,7 +39,7 @@ function select(element){
     }
     searchWrapper.classList.remove("active");
 }
-function showClasses(list){
+function showSuggestions(list){
     let listData;
     if(!list.length){
         userValue = inputBox.value;

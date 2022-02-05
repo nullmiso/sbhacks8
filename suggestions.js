@@ -1,4 +1,4 @@
-let allclasses = [
+let suggestions = [
   "CLIT40A",
   "CS16",
   "CS24",
