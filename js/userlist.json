@@ -1,17 +1,17 @@
 [
   {
-    "name": "andrew", 
-    "email": "andrewyu@ucsb.edu", 
-    "classes": ["cs24", "cs40", "phys1", "math6a"]
+    "name": "andrew",
+    "email": "andrewyu@ucsb.edu",
+    "classes": ["CS24", "CS40", "PHYS1", "MATH6A"]
   },
   {
-    "name": "rohan", 
-    "email": "rmarangoly@ucsb.edu", 
-    "classes": ["cs24", "hist4b", "phys1", "math4a"]
+    "name": "rohan",
+    "email": "rmarangoly@ucsb.edu",
+    "classes": ["CS24", "HIST4b", "PHYS1", "MATH4A"]
   },
   {
-    "name": "kyle", 
-    "email": "knw@ucsb.edu", 
-    "classes": ["cs24", "cs40", "phys1", "math6a"]
+    "name": "kyle",
+    "email": "knw@ucsb.edu",
+    "classes": ["CS24", "CS40", "PHYS1", "MATH6A"]
   }
 ]
