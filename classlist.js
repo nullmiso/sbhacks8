@@ -1,0 +1,17 @@
+let classList = [
+  "CLIT40A",
+  "CS16",
+  "CS24",
+  "CS32",
+  "CS64",
+  "ECE5",
+  "HIST4B",
+  "MATH4A",
+  "MATH4B",
+  "MATH6A",
+  "PHIL1",
+  "PHIL3",
+  "PHYS1",
+  "PHYS2",
+  "PSTAT120A",
+];
