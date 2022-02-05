@@ -32,7 +32,7 @@ inputBox.onkeyup = (e)=>{
 function select(element){
     let selectData = element.textContent;
     inputBox.value = selectData;
-    icon.onclick = ()=>{
+    icon.onclick = ()=>{ // replace with code that searches userdata.json for matching students
         webLink = `https://www.google.com/search?q=${selectData}`;
         linkTag.setAttribute("href", webLink);
         linkTag.click();
