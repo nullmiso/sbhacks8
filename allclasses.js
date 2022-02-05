@@ -1,4 +1,4 @@
-let classList = [
+let allclasses = [
   "CLIT40A",
   "CS16",
   "CS24",

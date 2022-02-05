@@ -1,39 +1,24 @@
 <!DOCTYPE html>
-<html>
-	
-<head>
-	<title>
-		Creating Search Bar using HTML
-		CSS and Javascript
-	</title>
-	
-	<!-- linking the stylesheet(CSS) -->
-	<link rel="stylesheet" type="text/css" href="./Main.css">
-</head>
-
-<body>
-	
-	<!-- input tag -->
-	<input id="searchbar" onkeyup="search_animal()" type="text"
-		name="search" placeholder="Search animals..">
-	
-	<!-- ordered list -->
-	<ol id='list'>
-		<li class="animals">Cat</li>
-		<li class="animals">Dog</li>
-		<li class="animals">Elephant</li>
-		<li class="animals">Fish</li>
-		<li class="animals">Gorilla</li>
-		<li class="animals">Monkey</li>
-		<li class="animals">Turtle</li>
-		<li class="animals">Whale</li>
-		<li class="animals">Aligator</li>
-		<li class="animals">Donkey</li>
-		<li class="animals">Horse</li>
-	</ol>
-	
-	<!-- linking javascript -->
-	<script src="./Main.js"></script>
-</body>
-
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Buddies With Benefits</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="search-input">
+        <a href="" target="_blank" hidden></a>
+        <input type="text" placeholder="Type to search..">
+        <div class="autocom-box">
+          <!-- here list are inserted from javascript -->
+        </div>
+        <div class="icon"><i class="fas fa-search"></i></div>
+      </div>
+    </div>
+    <script src="js/allclasses.js"></script>
+    <script src="js/search.js"></script>
+  </body>
 </html>
