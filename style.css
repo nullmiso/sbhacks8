@@ -6,19 +6,19 @@
   font-family: 'Poppins', sans-serif;
 }
 body{
-  background: #644bff;
+  background: #B8DFD8;
   padding: 0 20px;
 }
 ::selection{
-  color: #fff;
-  background: #664AFF;
+  color: #FFE194;
+  background: #E8F6EF;
 }
 .wrapper{
   max-width: 450px;
   margin: 150px auto;
 }
 .wrapper .search-input{
-  background: #fff;
+  background: #FFE194;
   width: 100%;
   border-radius: 5px;
   position: relative;
@@ -61,7 +61,7 @@ body{
   display: block;
 }
 .autocom-box li:hover{
-  background: #efefef;
+  background: #FFE194;
 }
 .search-input .icon{
   position: absolute;
@@ -72,6 +72,6 @@ body{
   text-align: center;
   line-height: 55px;
   font-size: 20px;
-  color: #644bff;
+  color: #B8DFD8;
   cursor: pointer;
 }
