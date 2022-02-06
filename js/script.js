@@ -9,18 +9,12 @@ inputBox.onkeyup = (e)=>{
     let emptyArray = [];
     if(userData){
         icon.onclick = ()=>{ // replace with code that searches userdata.json for matching students
-            //webLink = `https://www.google.com/search?q=${selectData}`;
-            //linkTag.setAttribute("href", webLink);
-            //linkTag.click();
             var js = require('./userlist.json');
-
-
             for (let i = 0; i < js.length; i++) {
-              if (js[i].classes.includes("cs24")) {
+              if (js[i].classes.includes("CS24")) {
                 console.log(`${i} name:${js[i].name}, email:${js[i].email}`);
               }
             }
-
         }
         emptyArray = suggestions.filter((data)=>{
             return data.toLocaleLowerCase().startsWith(userData.toLocaleLowerCase());
