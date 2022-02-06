@@ -2,16 +2,71 @@
   {
     "name": "andrew",
     "email": "andrewyu@ucsb.edu",
-    "classes": ["CS24", "CS40", "PHYS1", "MATH6A"]
+    "classes": [
+      "CS24",
+      "CS40",
+      "PHYS1",
+      "MATH6A"
+    ]
   },
   {
     "name": "rohan",
     "email": "rmarangoly@ucsb.edu",
-    "classes": ["CS24", "HIST4B", "PHYS1", "MATH4A"]
+    "classes": [
+      "CS24",
+      "HIST4B",
+      "PHYS1",
+      "MATH4A"
+    ]
   },
   {
     "name": "kyle",
     "email": "knw@ucsb.edu",
-    "classes": ["CS24", "CS40", "PHYS1", "MATH6A"]
+    "classes": [
+      "CS24",
+      "CS40",
+      "PHYS1",
+      "MATH6A"
+    ]
+  },
+  {
+    "name": "Bruh",
+    "email": "bruh@ucsb.edu",
+    "classes": [
+      "CHEM1B",
+      "PHYS1A",
+      "MATH4A",
+      "PHIL3"
+    ]
+  },
+  {
+    "name": "TheBruh",
+    "email": "bruh@ucsb.edu",
+    "classes": [
+      "CHEM1B",
+      "PHYS1A",
+      "MATH4A",
+      "PHIL3"
+    ]
+  },
+  {
+    "name": "Bartholomew",
+    "email": "bruh@ucsb.edu",
+    "classes": [
+      "CHEM1B",
+      "PHYS1A",
+      "MATH4A",
+      "PHIL3"
+    ]
+  },
+  {
+    "name": "Bartholomew",
+    "email": "bruh@ucsb.edu",
+    "classes": [
+      "CHEM1B",
+      "PHYS1A",
+      "MATH4A",
+      "PHIL3"
+    ]
   }
 ]

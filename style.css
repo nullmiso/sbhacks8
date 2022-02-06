@@ -11,7 +11,8 @@ body{
 }
 h1{
   text-align: center;
-  padding-top: 5%;
+  margin-bottom: 40px;
+  margin-top: 40px;
 }
 .btn {
   border: none;
@@ -29,7 +30,7 @@ h1{
 
 }
 .container {  
-  margin: -100px 450px;
+  margin: -100px 45%;
   
   
 }  
